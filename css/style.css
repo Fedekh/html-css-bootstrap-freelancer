@@ -12,3 +12,38 @@ body {
     background-color: #8f9396;
 }
 
+
+header {
+    margin-bottom: 20px ;
+    height: 70px;
+    position: sticky;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* debug */
+    border: 1px solid red;
+}
+
+header > * {
+    /* debug */
+    border: 1px solid green;
+}
+
+.jumbotron {
+    background-color: var(--jumbotron);
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.portfolio {
+    background-color: #708b51;
+    /* debug */
+    border: 1px solid black;
+}
+
+.portfolio  * {
+    /* debug */
+    border: 1px solid rgb(56, 11, 11);
+}
