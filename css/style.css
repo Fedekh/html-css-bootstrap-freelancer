@@ -7,3 +7,8 @@
     --bot-footer: var(--header-color)
 }
 
+body {
+    /* debug */
+    background-color: #8f9396;
+}
+
