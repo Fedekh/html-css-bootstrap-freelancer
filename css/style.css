@@ -1,0 +1,9 @@
+/* VARIABLES  */
+
+:root {
+    --header-color: #2C3E50;
+    --jumbotron:#1ABC9C;
+    --top-footer: #3A546D;
+    --bot-footer: var(--header-color)
+}
+
