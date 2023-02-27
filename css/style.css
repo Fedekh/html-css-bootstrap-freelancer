@@ -21,6 +21,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    background-color: var(--header-color);
     /* debug */
     border: 1px solid red;
 }
@@ -39,6 +40,7 @@ header > * {
 
 .portfolio {
     background-color: #708b51;
+    margin-bottom: 20px;
     /* debug */
     border: 1px solid black;
 }
@@ -46,4 +48,31 @@ header > * {
 .portfolio  * {
     /* debug */
     border: 1px solid rgb(56, 11, 11);
+    background-color: aqua;
+}
+
+.about{
+    background-color: var(--jumbotron);
+}
+.about .text-center, .about .col-12{
+    margin-bottom: 20px;
+
+    /* debug */
+    border: 1px solid rgb(9, 28, 134);
+}
+
+.ms_container {
+    width: 60%;    
+    margin: 0 auto;
+
+    /* debug */
+    border: 1px solid yellow;
+}
+
+.footer-top{
+    background-color: var(--top-footer);
+}
+
+.footer-bot{
+    background-color: var(--bot-footer);
 }
