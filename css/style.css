@@ -48,8 +48,8 @@ header > * {
     
 }
 
-header nav {
-    background-color: rgba(248,249,250, 0); 
+header .navbar-toggler{
+    border-color: white;     
 }
 
 /* ############################################################################## */
