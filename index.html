@@ -20,22 +20,36 @@
     <!-- HEADER -->
 
     <header class="navbar-expand-md">
-        <section class="container text-white d-flex justify-content-between fs-3 align-items-center">
-            <div class="logo">BOOTSTRAP</div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="www.google.it">PORTFOLIO</a>        
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="www.google.it">ABOUT</a>    
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="www.google.it">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
+        <section class="container fs-3 d-flex-row align-self-center">
+            <nav class="navbar navbar-expand-md bg-body-tertiary d-flex">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">BOOTSTRAP</a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="ms-right navbar-nav">
+                          <li class="nav-item">
+                              <a href="" class="nav-link">Link</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="" class="nav-link">Link</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="" class="nav-link">Link</a>
+                          </li>
+                      </ul>
+                  </div>
+                </div>
+              </nav>
             
         </section>
     </header>
@@ -49,7 +63,7 @@
         <div class="container">
             <img src="img/avatar.svg" alt="">        
             <h1>START BOOTSTRAP</h1>
-            <div class="icon py-3 d-flex justify-content-center align-items-center px-2">
+            <div class="icon-w py-3 d-flex justify-content-center align-items-center px-2">
                 <i class="fa-solid fa-star"></i>
             </div>
             <p class="">GRAPICH ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
@@ -60,6 +74,9 @@
     <!-- SECTION SKILLS-->
     <section class="portfolio container-sm container-md container-lg">
         <h2 class="text-center">PORTFOLIO</h2>
+        <div class="icon-b py-3 d-flex justify-content-center align-items-center px-2">
+            <i class="fa-solid fa-star"></i>
+        </div>
         <div class="row d-flex flex-wrap row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 py-3">
             <div class="col">
                 <div class="card">
@@ -96,23 +113,49 @@
     <!-- /SECTION SKILLS-->
 
     <!-- SECTION ABOUT -->
-    <section class="about container-sm container-md container-lg">
-        <h2 class="text-center">ABOUT</h2>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
-            <div class="col-12 col-md-6 col-lg-6">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
+    <section class="about ms_container py-3 text-white">
+        <div class="container-fluid">
+            <h2 class="text-center">ABOUT</h2>
+            <div class="icon-w py-3 d-flex justify-content-center align-items-center px-2">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
+                <div class="col">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
+            </div>
         </div>
     </section>
     <!-- /SECTION ABOUT -->
 
     <!-- SECTION CONTACTS -->
-    <section class="contact ms_container container-md container-lg">
+    <section class="contact ms_container py-3">
         <div class="container-fluid">
-            <h2 class="text-center">CONTACTS</h2>
-            <div class="row">
-                <div class="col-12 ">sCONTATTI b</div> 
-                <div class="col-12 ">Contatti piu pulsante</div> 
+            <h2 class="text-center">CONTACT ME</h2>
+            <div class="icon-b py-3 d-flex justify-content-center align-items-center px-2">
+                <i class="fa-solid fa-star"></i>
             </div>
+            <form action="" class="mt-2">
+                <div class="mb-3">
+                    <label for="text">Nome</label>
+                    <input type="text"
+                     class="form-label" 
+                     type="email"
+                     class="form-control"
+                     id="text"
+                     aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      aria-describedby="emailHelp"
+                    />                    
+                                     
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </section>
     <!-- /SECTION CONTACTS -->

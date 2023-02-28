@@ -9,7 +9,7 @@
 
 body {
     /* debug */
-    background-color: #8f9396;
+    /* background-color: #8f9396; */
 }
 
 img {
@@ -45,7 +45,11 @@ header > * {
     /* debug */
     border: 1px solid green;
     height: 100%;
-       
+    
+}
+
+header nav {
+    background-color: rgba(248,249,250, 0); 
 }
 
 /* ############################################################################## */
@@ -68,7 +72,7 @@ header > * {
 }
 
 
-.jumbotron .icon:before {
+.icon-w:before {
     content: "";
     display: inline-block;
     width: 15%;
@@ -78,7 +82,7 @@ header > * {
     margin-right: 10px;
 }
 
-.jumbotron .icon:after {
+.icon-w:after {
     content: "";
     display: inline-block;
     width: 15%;
@@ -86,17 +90,38 @@ header > * {
     height: 4px;
     background-color: white;
     margin-left: 10px;
-
 }
+
+.icon-b:before {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.icon-b:after {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
 
 /* ############################################################################ */
 
 /* FIRST SECTION SKILL */
 
 .portfolio {
+
+    /* debug */
     /* background-color: #708b51; */
     /* margin-bottom: 20px; */
-    /* debug */
     /* border: 1px solid black; */
 }
 
