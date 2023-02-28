@@ -12,14 +12,26 @@ body {
     background-color: #8f9396;
 }
 
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* ########################################################################################### */
 
 /* HEADER SECTION  */
 
 header {
-    margin-bottom: 20px ;
     height: 70px;
-    position: sticky;
+    position: fixed;
     z-index: 9;
     top: 0;
     left: 0;
@@ -32,6 +44,8 @@ header {
 header > * {
     /* debug */
     border: 1px solid green;
+    height: 100%;
+       
 }
 
 /* ############################################################################## */
@@ -40,9 +54,39 @@ header > * {
 
 .jumbotron {
     background-color: var(--jumbotron);
-
+    width: 100%;
+    margin-top: 70px;
+    
     /* debug */
+    /* color: white; */
     border: 1px solid black;
+}
+
+.jumbotron img {
+    width: 40%;
+    max-width: 300px;
+}
+
+
+.jumbotron .icon:before {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.jumbotron .icon:after {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: white;
+    margin-left: 10px;
+
 }
 
 /* ############################################################################ */
@@ -50,16 +94,16 @@ header > * {
 /* FIRST SECTION SKILL */
 
 .portfolio {
-    background-color: #708b51;
-    margin-bottom: 20px;
+    /* background-color: #708b51; */
+    /* margin-bottom: 20px; */
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .portfolio  * {
     /* debug */
-    border: 1px solid rgb(56, 11, 11);
-    background-color: aqua;
+    /* border: 1px solid rgb(56, 11, 11); */
+    /* background-color: aqua; */
 }
 
 
