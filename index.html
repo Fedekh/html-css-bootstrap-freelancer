@@ -23,9 +23,9 @@
         <section class="container d-flex-row">
             <nav class="navbar navbar-expand-md d-flex">
                 <div class="container-fluid">
-                  <a class="navbar-brand  text-white" href="#">BOOTSTRAP</a>
+                  <a class="navbar-brand text-white" href="#">BOOTSTRAP</a>
                   <button
-                    class="navbar-toggler"
+                    class="navbar-toggler navbar-dark"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
@@ -113,15 +113,17 @@
     <!-- /SECTION SKILLS-->
 
     <!-- SECTION ABOUT -->
-    <section class="about ms_container py-3 text-white">
-        <div class="container-fluid">
-            <h2 class="text-center">ABOUT</h2>
-            <div class="icon-w py-3 d-flex justify-content-center align-items-center px-2">
-                <i class="fa-solid fa-star"></i>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2">
-                <div class="col">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
-                <div class="col">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
+    <section class="about py-3 text-white">
+        <div class="ms_container py-3">
+            <div class="container-fluid">
+                <h2 class="text-center">ABOUT</h2>
+                <div class="icon-w py-3 d-flex justify-content-center align-items-center px-2">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
+                    <div class="col">Lorem ipsum dolor sit chitecto similique at nemo placeat alias assumenda corrupti harum, ab repellendus optio? Perferendis possimus quasi suscipit ea repudiandae.</div> 
+                </div>
             </div>
         </div>
     </section>
@@ -150,8 +152,26 @@
                       class="form-control"
                       id="email"
                       aria-describedby="emailHelp"
-                    />                    
-                                     
+                    />                                   
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input
+                      type="phone"
+                      class="form-control"
+                      id="phone"
+                     
+                    />                                   
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Message</label>
+                    <textarea class="form-control" name="" id="comment" cols="50" rows="11"></textarea>
+                    <!-- <input
+                      type="text-area cols="50"
+                      class="form-control"
+                      id="comment"
+                      aria-describedby="emailHelp"
+                    />                                    -->
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
@@ -162,24 +182,45 @@
     <!-- /MAIN -->
 
     <!-- FOOTER -->
-    <footer>
-        <div class="footer-top">
+    <footer class="text-white">
+        <div class="footer-top py-4">
             <section class="ms_container">
-                <div class="container-fluid">          
-                    <div class="location mb-3">
-                        <h3>LOCATION</h3>
+                <div class="container-fluid d-md-inline-flex g-3">          
+                    <div class="location text-center">
+                        <h5>LOCATION</h5>
                         <p>2215 John Snow, 64900 MI</p>
                     </div>
-                    <div class="links mb-3">
-                        <h3>AROUND THE WEB</h3>
+                    <nav class="navbar">
+                        <div class="mx-auto" id="navbarNav">
+                            <ul class="nav d-flex flex-nowrap">
+                                <li class="nav-item border rounded-circle py-1 m-1 ">
+                                  <a class="nav-link text-white " href="#"><i class="fa-brands fa-facebook-f "></i></a>
+                                </li>
+                                <li class="nav-item border rounded-circle py-1 m-1">
+                                  <a class="nav-link text-white " href="#"><i class="fa-brands fa-google"></i></a>
+                                </li>
+                                <li class="nav-item border rounded-circle py-1 m-1">
+                                  <a class="nav-link text-white " href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li class="nav-item border rounded-circle py-1 m-1">
+                                  <a class="nav-link text-white "><i class="fa-brands fa-linkedin"></i></a>
+                                </li>
+                              </ul>                        
+                        </div>
+                    </nav>
+                    <div class="freelcance d-md-flex-row text-center py-2">
+                        <h5>ABOUT FREELANCE</h5>
+                        <p class="m-0">Freelance sdjhsdhjds hsdh <a href="">Start bootstrap</a></p>
                     </div>
-                    <div></div>        
+
+                
+                                           
                 </div>                
             </section>            
         </div>
-        <div class="footer-bot">
+        <div class="footer-bot text-center py-3">
             <div class="ms_container">
-                <div class="container-fluid">sfrfrfffdf</div>
+                <div class="container-fluid">Copyright lorem pippo</div>
             </div>            
         </div>
     </footer>

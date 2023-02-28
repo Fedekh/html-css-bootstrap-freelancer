@@ -38,12 +38,12 @@ header {
     right: 0;
     background-color: var(--header-color);
     /* debug */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header > * {
     /* debug */
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 100%;
     
 }
@@ -143,7 +143,7 @@ header .navbar-toggler{
     margin-bottom: 20px;
 
     /* debug */
-    border: 1px solid rgb(9, 28, 134);
+    /* border: 1px solid rgb(9, 28, 134); */
 }
 
 /* -------------------------------------------------------------------------------------- */
@@ -155,9 +155,15 @@ header .navbar-toggler{
     width: 60%;    
     margin: 0 auto;
     /* debug */
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
+@media  screen and (width >= 768px) {
+    .contact .container-fluid {
+        width: 60%;
+    }
+    
+}
 
 
 /* FOOTER SECTION */
@@ -165,6 +171,11 @@ header .navbar-toggler{
     background-color: var(--top-footer);
 }
 
+p a {
+    color: var(--jumbotron);
+}
+
 .footer-bot{
     background-color: var(--bot-footer);
 }
+
